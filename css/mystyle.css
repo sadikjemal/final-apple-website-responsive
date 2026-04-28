@@ -55,16 +55,18 @@
 }
 .fifth-section .left{
     background-image: url(../images/home/air-pods.jpg);
+    height:  580px;
 }
 .section-six .right{
     background-image: url(../images/home/macbook-pro.jpg);
     height: 580px;
     background-position: bottom;
     background-repeat: no-repeat;
+    background-color: #F9F9F9;
 }
 .section-six .left{
     background-image: url(../images/home/new-ipad.jpg);
-    height: 580px;
+    height: 600px;
     background-position: bottom;
     background-repeat: no-repeat;
 }
@@ -81,7 +83,7 @@
     content: "\f144";
     padding-left: 15px;
 }
-ul li a:after {
+section ul li a:after {
     font-family: "FontAwesome";
     font-weight: 900;
     content: "\f105";
