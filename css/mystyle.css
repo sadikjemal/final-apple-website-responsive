@@ -1,4 +1,6 @@
-
+.first-section {
+    background-color: #FAFAFA;
+}
 .second-section{
     background-image: url(../images/home/iphone11-pro-bg.jpg);
     height: 580px;
@@ -50,9 +52,6 @@
     background-position: bottom;
     background-repeat: no-repeat;
 }
-.servant-logo{
-    padding: 150px;
-}
 .fifth-section .left{
     background-image: url(../images/home/air-pods.jpg);
     height:  580px;
@@ -66,16 +65,20 @@
 }
 .section-six .left{
     background-image: url(../images/home/new-ipad.jpg);
-    height: 600px;
+    height: 580px;
     background-position: bottom;
     background-repeat: no-repeat;
 }
 .watch-more-wrapper {
-    margin-bottom: 200px;
+    padding-top: 130px;
+}
+.servant-logo{
+    margin-top: 200px;
 }
 .watch-more-wrapper a{
 	text-decoration: none;
 	font-size: 0.85em;
+    margin-top: px;
 }
 .watch-more-wrapper a:after {
     font-family: "FontAwesome";
