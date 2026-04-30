@@ -1,13 +1,14 @@
+
 .first-section {
     background-color: #FAFAFA;
 }
 .second-section{
-    background-image: url(../images/home/iphone11-pro-bg.jpg);
-    height: 580px;
-    background-position: center;
+    /* background-image: url(../images/img/hero_static__c07b68h6ap2e_small_2x.jpg); */
+    /* height: 580px; */
+    /* background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: #fafafa;;
+    color: #fafafa;; */
 }
 .third-section{
     color: #000000;
@@ -86,12 +87,12 @@
     content: "\f144";
     padding-left: 15px;
 }
-section ul li a:after {
+/* section ul li a:after {
     font-family: "FontAwesome";
     font-weight: 900;
     content: "\f105";
     padding-left: 10px;
-} 
+}  */
 .third-section-wrapper ul li a{
     color: black;
 }
@@ -101,4 +102,36 @@ section ul a:hover{
 h6{
     color: #86868b; 
 }
+/* .slider-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
 
+.slider {
+  display: flex;
+  width: max-content;
+  animation: slide 2s linear infinite;
+}
+
+@keyframes slide {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.tach1,
+.tach2{
+    width: 200px;
+}
+.tach4{
+    width: 470px;
+}
+.tach5{
+    width: 270px;
+} */
+.scroll-container {
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.scroll-container > div {
+  scroll-snap-align: start;
+}
