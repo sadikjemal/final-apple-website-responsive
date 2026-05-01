@@ -3,12 +3,12 @@
     background-color: #FAFAFA;
 }
 .second-section{
-    /* background-image: url(../images/img/hero_static__c07b68h6ap2e_small_2x.jpg); */
-    /* height: 580px; */
-    /* background-position: center;
+    background-image: url(../images/home/iphone11-pro-bg.jpg);
+    height: 580px;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: #fafafa;; */
+    color: #fafafa;;
 }
 .third-section{
     color: #000000;
@@ -22,24 +22,22 @@
     background-color: #F9F9F9;
     color: #000000;
     background-image: url(../images/home/watch.jpg);
-    height: 580px;
-    background-position: center;
+    height:580px;
+    background-position: bottom;
     background-repeat: no-repeat;
-    /* background-size: cover; */
 }
 .fourth-section .left{
     background-color: #F9F9F9;
     color: #000000;
     background-image: url(../images/home/apple-card.jpg);
     height: 580px;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
-    /* background-size: cover; */
 }
 .fifth-section .right{
     background-image: url(../images/home/apple-tv-background.jpg);
     height: 580px;
-    /* background-color: #000; */
+    background-color: #000;
     background-position: center;
 }
 .servant-logo{
@@ -59,16 +57,17 @@
 }
 .section-six .right{
     background-image: url(../images/home/macbook-pro.jpg);
-    height: 580px;
+    height: 630px;
     background-position: bottom;
     background-repeat: no-repeat;
     background-color: #F9F9F9;
 }
 .section-six .left{
     background-image: url(../images/home/new-ipad.jpg);
-    height: 580px;
+    height: 630px;
     background-position: bottom;
     background-repeat: no-repeat;
+    background-color: #F9F9F9;
 }
 .watch-more-wrapper {
     padding-top: 130px;
@@ -87,35 +86,11 @@
     content: "\f144";
     padding-left: 15px;
 }
-/* section ul li a:after {
-    font-family: "FontAwesome";
-    font-weight: 900;
-    content: "\f105";
-    padding-left: 10px;
-}  */
-.third-section-wrapper ul li a{
-    color: black;
-}
 section ul a:hover{
     color: chocolate;
 }
 h6{
     color: #86868b; 
-}
-/* .slider-wrapper {
-  width: 100%;
-  overflow: hidden;
-}
-
-.slider {
-  display: flex;
-  width: max-content;
-  animation: slide 2s linear infinite;
-}
-
-@keyframes slide {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
 }
 .tach1,
 .tach2{
@@ -123,9 +98,12 @@ h6{
 }
 .tach4{
     width: 470px;
-}
+} 
 .tach5{
     width: 270px;
+} 
+/* .tach6{
+    height:1000px;
 } */
 .scroll-container {
   scroll-behavior: smooth;
